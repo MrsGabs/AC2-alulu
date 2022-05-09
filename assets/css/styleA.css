@@ -1,0 +1,59 @@
+/*body{
+    animation: 1s linear 0s infinite running cor;
+
+}
+
+
+.davi img{
+    height: 800px;
+    width: 800px;    
+    animation: 5s linear 0s infinite running opacidade;
+
+}
+
+@keyframes opacidade{
+    from{margin-left:0%;}
+    to{margin-left:100%;}
+    50%{transform: scale(20, 0.2);}
+    70%{transform: rotate(360deg);}
+    90%{transform: scale(20, 0.2);}
+    100%{filter: grayscale(1);}
+}
+
+
+@keyframes cor{
+    0%{background-color: pink;}
+    20%{background-color: orange;}
+    40%{background-color: yellow;}
+    60%{background-color: green;}
+    80%{background-color: blue;}
+    100%{background-color: purple;}
+}
+*/
+.meio{
+    width: 100%;
+    display: flex;
+}
+
+.gabriel{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url(../images/sopa.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.gabriel{
+    animation: 3.5s linear 0s infinite running escala ;
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes escala{
+0%{margin-right: 10%;}
+45%{margin-left: 67.8%; background-image: url(../images/gabdrule.png);}
+100%{margin-right: 10%;}
+}
